@@ -49,3 +49,9 @@ Every time I make changes, I can commit and push.
 `git add *`
 `git commit -am "Changes to Assignment"`
 `git push -u origin master`
+
+8. Once you are ready to upload your changes from local to remote
+
+`git commit -am “<< Description of the changes>> ”`
+
+`git push origin master`
