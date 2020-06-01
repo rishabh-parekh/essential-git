@@ -10,7 +10,7 @@ The output is: `Initialized empty Git repository in /Users/rishabhparekh/code/es
 
 2. Add files to the repo locally. 
 
-git remote add origin git@rishabh:rishabh-parekh/covid.git
+git remote add origin git@rishabh:rishabh-parekh``/covid.git
 
 `git add *`
 
@@ -40,4 +40,12 @@ Every time I make changes, I can commit and push.
 
 `git status` (for local status)
 
-`git status remote` (for remote status)
+`git fetch update` (for remote status)
+
+7. How to connect existing local repo to remote repo
+
+`git remote set-url origin git@rishabh:rishabh-parekh/dh101assignments.git `
+`git remote -v `
+`git add *`
+`git commit -am "Changes to Assignment"`
+`git push -u origin master`
