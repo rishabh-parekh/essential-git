@@ -29,11 +29,15 @@ Go to the browser, http://www.github.com and create a new repo
 Every time I make changes, I can commit and push. 
 
 `git commit -am “Initial Readme and images committed”`
+
 `git push origin master`
 
 5. If someone else makes a change and I want to accesss it
+
 `git pull origin master`
 
 6. How to check the status
+
 `git status` (for local status)
+
 `git status remote` (for remote status)
