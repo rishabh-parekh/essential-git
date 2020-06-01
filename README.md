@@ -34,3 +34,6 @@ Every time I make changes, I can commit and push.
 5. If someone else makes a change and I want to accesss it
 `git pull origin master`
 
+6. How to check the status
+`git status` (for local status)
+`git status remote` (for remote status)
