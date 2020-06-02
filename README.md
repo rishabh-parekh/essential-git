@@ -66,11 +66,11 @@ Every time I make changes, I can commit and push.
   For pull request first create a feature branch, for a feature you are working. 
 
   `git checkout -b pull-request-demo`
-  
-  Verify you have push rights to the branch pull-request-demo
-
-  `git push origin pull-request-demo`
 
   Commit your changes and now you are ready to create a PR. 
 
   `git commit -am "Pull Request Steps"`
+  
+  Push your changes to the branch pull-request-demo
+
+  `git push origin pull-request-demo`
