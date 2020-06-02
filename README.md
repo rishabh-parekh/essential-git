@@ -55,3 +55,22 @@ Every time I make changes, I can commit and push.
 `git commit -am “<< Description of the changes>> ”`
 
 `git push origin master`
+
+9. Pull Request
+  When you want to collaborate with your team, make sure you add them as collaborates on your git repo and allow them to commit. 
+
+![Git Add Collaboraters ](./images/add-collaborator.png "Git Add Collaboraters")
+
+  Next the collaborater, accepts the invite and they are now ready to commit code. 
+
+  For pull request first create a feature branch, for a feature you are working. 
+
+  `git checkout -b pull-request-demo`
+  
+  Verify you have push rights to the branch pull-request-demo
+
+  `git push origin pull-request-demo`
+
+  Commit your changes and now you are ready to create a PR. 
+
+  `git commit -am "Pull Request Steps"`
